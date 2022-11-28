@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - entrypoint
- * Descritpion:prints all the numbers of base 16 in lowercase
- * Return: 0
+ *
+ *
+ *
  */
-
 int main(void)
 {
 	int n;
@@ -18,7 +16,7 @@ int main(void)
 	{
 		putchar(n);
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
 

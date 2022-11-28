@@ -1,35 +1,33 @@
 #include <stdio.h>
-
 /**
- * main - entrypoint
- * Description:program that prints all possible different combinations of 2 num
- * Return: 0
+ *
+ *
+ *
  */
-
 int main(void)
 {
-	int n;
-
-	int m = '0';
-	while (m < 10)
+	int a;
+	int b = 0;
+	
+	while (b < 10)
 	{
-		n = '0';
-		while (n < 10)
+		a = 0;
+		while (a < 10)
 		{
-			if (m != n && m < n)
+			if (b != a && b < a)
 			{
-				putchar('0' + m);
-				putchar('0' + n);
+				putchar('0' + b);
+				putchar('0' + a);
 
-				if (m + n != 19)
+				if (b + a != 19)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			n++;
+			a++;
 		}
-		m++;
+		b++;
 	}
 	putchar('\n');
 	return (0);

@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - entrypoint
- * description:program that prints all possible combinations of single-digit no
- * Return:0
+ *
+ *
+ *
  */
-
 int main(void)
 {
 	int n;
@@ -24,4 +22,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
